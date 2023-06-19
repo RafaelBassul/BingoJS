@@ -142,7 +142,7 @@
       var todasCartelas = [];
       var c = 0;
 
-      function criarBolas() {
+      function criarBolasSorteadas() {
         var tabela = document.createElement("table");
         var header = document.querySelector("header");
         header.appendChild(tabela);
@@ -201,7 +201,7 @@
                 nomeVencedor.innerText =
                   "parabénsssss " +
                   todasCartelas[ncartela].nome +
-                  ", ganhou uma Marea turbo 98!!";
+                  ", ganhou um Marea turbo 98!!";
 
                 var parabensDiv = document.createElement("div");
                 parabensDiv.className = "divParabens";
@@ -354,7 +354,7 @@
         }
       }
 
-      criarBolas();
+      criarBolasSorteadas();
     </script>
   </body>
 </html>
